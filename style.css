@@ -1,0 +1,26 @@
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: #12bdac;
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 300px;
+	border: 2px solid #0ca192;
+}
+
+.item {
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #0ca192;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px;
+}
